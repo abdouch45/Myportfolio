@@ -1,0 +1,47 @@
+/* Ajoutez ces styles dans votre fichier CSS ou créez un fichier séparé pour les styles */
+
+.project-showcase {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .project-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card h3 {
+    color: #333;
+  }
+  
+  .project-card p {
+    color: #666;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 12px;
+    border-radius: 4px;
+  }
+  
+  .project-card div {
+    margin-top: 12px;
+  }
+  
+  .project-card strong {
+    font-weight: bold;
+  }
+  
+  .project-card a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .project-card a:hover {
+    text-decoration: underline;
+  }
+  
