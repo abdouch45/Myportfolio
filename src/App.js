@@ -41,7 +41,10 @@ const blogs = [
   }
 ];
 
- const frontEnd=[{title:"Markup languages:",discription:"HTML5, CSS3 "},{title:"JavaScript:",discription:"Core language features, frameworks like React"},{title:"mobile apps:",discription:"flutter framework(multiplatform)"},{title:"Version control systems:",discription:"Git"}]
+ const frontEnd=[{title:"Markup languages:",discription:"HTML5, CSS3 "}
+ ,{title:"Javacript:",discription:"Core language features, frameworks like React"}
+ ,{title:"mobile apps:",discription:"flutter framework(multiplatform)"},
+ {title:"Version control systems:",discription:"Git"}]
  const backEnd=[{title:"Server-side programming languages and frameworks:",discription:"PHP(laravel),  Node.js"},{title:"Databases::",discription:"SQL, NoSQL(mongodb) "},{title:"APIs and web services",discription:"  "}]
  const AddSkills=[{title:"linux basics ",discription:"" },{title:"Security fundamentals and frameworks like OWASP  ",discription:"" },{title:" Communication and collaboration skills ",discription:"" }]
  const exp=[{discription:"worked as independent fullstack devloper "},{discription:"worked as independent mobile app devloper"}]
@@ -55,7 +58,7 @@ function App() {
       <NavBar/>
       <div className='title'><h1>Home</h1></div>
       <div id='Home'>
-          <img id='logo' src='/logo.png' ></img>
+          <img id='logo' src='/logo.png' alt='logo'></img>
         <p>Welcome to my portfolio. I am a <strong>full-stack web developer</strong><br></br> <strong>mobile app developer</strong>
         <br></br> <strong>API developer</strong><br></br> And <strong>database conceptor</strong>.</p>
 
